@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <style>
+        /* external css: flickity.css */
+
+        * { box-sizing: border-box; }
+
+        body { font-family: sans-serif; }
+
+        .carousel {
+        background: #EEE;
+        }
+
+        .carousel-cell {
+        width: 100%;
+        height: 200px;
+        margin-right: 10px;
+        background: #8C8;
+        border-radius: 5px;
+        counter-increment: carousel-cell;
+        }
+
+        /* cell number */
+        .carousel-cell:before {
+        display: block;
+        text-align: center;
+        content: counter(carousel-cell);
+        line-height: 200px;
+        font-size: 80px;
+        color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="h-100 carousel"
+        data-flickity='{ "wrapAround": true }'>
+        
+
+        <div class="h-100 mySlides1 pt-4 pr-5 pl-5">
+            <div class="d-flex h-100 carousel-cell">
+                <div class="card-body carousel-cell-top">
+                    <h3 class="h3 text__headersub fw-bold text-dark">
+                        Booth Karaoke
+                    </h3>
+                    <p class="carousel-cell-top-text">
+                        Chúng tôi cung cấp các dịch vụ lưu trữ Máy chủ đám mây (Cloud Hosting), Máy chủ ảo (VPS Hosting) và các dịch vụ đăng ký, gia hạn tên miền (Domain) 
+                    </p>
+                </div>
+                <div class="d-flex w-100 justify-content-between card-body carousel-cell-bottom">
+                    <div class="d-flex carousel-cell-bottom-technical">
+                        <div class="carousel-cell-bottom-item">
+                            <h6 class="text-muted mr-2 mb-0">
+                                <span class="badge badge-pill badge-danger p-2">
+                                    <span class="h6 text-white">
+                                        Game
+                                    </span>
+                                </span>
+                            </h6>
+                        </div>
+                        <div class="carousel-cell-bottom-item">
+                            <h6 class="text-muted mr-2 mb-0">
+                                <span class="badge badge-pill badge-warning p-2">
+                                    <span class="h6 text-white">
+                                        Mobile
+                                    </span>
+                                </span>
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="d-flex carousel-cell-bottom-technical">
+                        <div class="carousel-cell-bottom-item">
+                            <h6 class="text-muted mr-2 mb-0">
+                                <span class="badge badge-pill">
+                                    <span class="h6 text-gray-200">
+                                        Chi tiết
+                                    </span>
+                                </span>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="h-100 mySlides1 pt-4 pr-5 pl-5">
+            <div class="d-flex h-100 carousel-cell">
+                <div class="card-body carousel-cell-top">
+                    <h3 class="h3 text__headersub fw-bold text-dark">
+                        Thi công Datacenter Karaoke ICOOL
+                    </h3>
+                    <p class="carousel-cell-top-text">
+                        Chúng tôi cung cấp các dịch vụ lưu trữ Máy chủ đám mây (Cloud Hosting), Máy chủ ảo (VPS Hosting) và các dịch vụ đăng ký, gia hạn tên miền (Domain) 
+                    </p>
+                </div>
+                <div class="d-flex w-100 justify-content-between card-body carousel-cell-bottom">
+                    <div class="d-flex carousel-cell-bottom-technical">
+                        <div class="carousel-cell-bottom-item">
+                            <h6 class="text-muted mr-2 mb-0">
+                                <span class="badge badge-pill badge-info p-2">
+                                    <span class="h6 text-white">
+                                        Website
+                                    </span>
+                                </span>
+                            </h6>
+                        </div>
+                        <div class="carousel-cell-bottom-item">
+                            <h6 class="text-muted mr-2 mb-0">
+                                <span class="badge badge-pill badge-warning p-2">
+                                    <span class="h6 text-white">
+                                        Mobile
+                                    </span>
+                                </span>
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="d-flex carousel-cell-bottom-technical">
+                        <div class="carousel-cell-bottom-item">
+                            <h6 class="text-muted mr-2 mb-0">
+                                <span class="badge badge-pill">
+                                    <span class="h6 text-gray-200">
+                                        Chi tiết
+                                    </span>
+                                </span>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="h-100 mySlides1 pt-4 pr-5 pl-5">
+            <div class="d-flex h-100 carousel-cell">
+                <div class="card-body carousel-cell-top">
+                    <h3 class="h3 text__headersub fw-bold text-dark">
+                        Thi công hệ thống mạng công ty Tân Hùng Thái
+                    </h3>
+                    <p class="carousel-cell-top-text">
+                        Chúng tôi cung cấp các dịch vụ lưu trữ Máy chủ đám mây (Cloud Hosting), Máy chủ ảo (VPS Hosting) và các dịch vụ đăng ký, gia hạn tên miền (Domain) 
+                    </p>
+                </div>
+                <div class="d-flex w-100 justify-content-between card-body carousel-cell-bottom">
+                    <div class="d-flex carousel-cell-bottom-technical">
+                        <div class="carousel-cell-bottom-item">
+                            <h6 class="text-muted mr-2 mb-0">
+                                <span class="badge badge-pill badge-success p-2">
+                                    <span class="h6 text-white">
+                                        App
+                                    </span>
+                                </span>
+                            </h6>
+                        </div>
+                        <div class="carousel-cell-bottom-item">
+                            <h6 class="text-muted mr-2 mb-0">
+                                <span class="badge badge-pill badge-info p-2">
+                                    <span class="h6 text-white">
+                                        Website
+                                    </span>
+                                </span>
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="d-flex carousel-cell-bottom-technical">
+                        <div class="carousel-cell-bottom-item">
+                            <h6 class="text-muted mr-2 mb-0">
+                                <span class="badge badge-pill">
+                                    <span class="h6 text-gray-200">
+                                        Chi tiết
+                                    </span>
+                                </span>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</html>

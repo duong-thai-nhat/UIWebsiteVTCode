@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website VTCode</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./slider.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    
+</head>
+<body>
+    <div id="main">
+        <header id="header">
+            <!-- <div class="header__wrap">
+                <div class="header__logo">
+                    <img src="./assets/img/Logo.png" alt="" class="header__logo__img">
+                </div>
+                <div class="header__nav">
+                    <ul class="header__menu">
+                        <li class="header__menu__list">
+                            <a href="#" class="header__menu__link">Trang chủ</a>
+                        </li>
+                        <li class="header__menu__list">
+                            <a href="#about" class="header__menu__link">Về chúng tôi</a>
+                        </li>
+                        <li class="header__menu__list">
+                            <a href="#service" class="header__menu__link">Dịch vụ</a>
+                        </li>
+                        <li class="header__menu__list">
+                            <a href="#project" class="header__menu__link">Dự án</a>
+                        </li>
+                        <li class="header__menu__list">
+                            <a href="#contact" class="header__menu__link">Liên hệ</a>
+                        </li>
+                    </ul>
+                    <ul class="header__info">
+                        <li class="header__info">
+                            <a href="" class="header__info__link__facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="header__info">
+                            <a href="" class="header__info__link__twitter">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="header__info">
+                            <a href="" class="header__info__link__linkedin">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div> -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <a class="navbar-brand" href="#">
+                    <div class="header__logo">
+                        <img src="./assets/img/Logo.png" alt="" class="header__logo__img">
+                    </div>
+                </a>
+                <!-- <div class="header__nav"> -->
+                    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                        <li class="nav-item active header__menu__list">
+                          <a class="header__menu__link" href="#">Trang chủ <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item header__menu__list">
+                          <a class="header__menu__link" href="#about">Về chúng tôi</a>
+                        </li>
+                        <li class="nav-item header__menu__list">
+                          <a class="header__menu__link" href="#service">Dịch vụ</a>
+                        </li>
+                        <li class="nav-item header__menu__list">
+                          <a class="header__menu__link" href="#project">Dự án</a>
+                        </li>
+                        <li class="nav-item header__menu__list">
+                          <a class="header__menu__link" href="#contact">Liên hệ</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                          <a class="nav-link disabled" href="#">Disabled</a>
+                        </li> -->
+                    </ul>
+                </div>
+                <!-- </div> -->
+                <div class="nav-mobile">
+    
+                    <ul class="header__info">
+                        <li class="header__info__list">
+                            <a href="" class="header__info__link__facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="header__info__list">
+                            <a href="" class="header__info__link__twitter">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="header__info__list">
+                            <a href="" class="header__info__link__linkedin">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <!-- <section id="slider">
+
+        </section> -->
+        <section id="slider">
+            <div class="slider-container">
+                <div class="slider-control left inactive"></div>
+                <div class="slider-control right"></div>
+                <ul class="slider-pagi"></ul>
+                <div class="slider">
+                  <div class="slide slide-0 active">
+                    <div class="slide__bg"></div>
+                    <div class="slide__content">
+                      <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                        <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                      </svg>
+                      <div class="slide__text">
+                        <h2 class="slide__text-heading">Icool</h2>
+                        <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                        <a class="slide__text-link">Project link</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slide slide-1 ">
+                    <div class="slide__bg"></div>
+                    <div class="slide__content">
+                      <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                        <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                      </svg>
+                      <div class="slide__text">
+                        <h2 class="slide__text-heading">Software Developer</h2>
+                        <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                        <a class="slide__text-link">Project link</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slide slide-2">
+                    <div class="slide__bg"></div>
+                    <div class="slide__content">
+                      <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                        <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                      </svg>
+                      <div class="slide__text">
+                        <h2 class="slide__text-heading">Project name 3</h2>
+                        <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                        <a class="slide__text-link">Project link</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slide slide-3">
+                    <div class="slide__bg"></div>
+                    <div class="slide__content">
+                      <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                        <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                      </svg>
+                      <div class="slide__text">
+                        <h2 class="slide__text-heading">Project name 4</h2>
+                        <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                        <a class="slide__text-link">Project link</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+        </section>
+        <div class="position-relative">
+            <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="#ffffff"></path>
+                </svg>
+            </div> 
+        </div>
+        <section id="about">
+            <div class="container">
+                <div id="container__content">
+                    <div class="header__section">
+                        <h3 class="header__section__heading">Về chúng tôi</h3>
+                        <p class="header__section__sub"></p>
+                    </div>
+                    <div class="about__content">
+                        <!-- <div class="about__heading">
+                            <p class="about__heading__slogan">
+                                SPC cam kết mang đến khách hàng một dịch vụ khác biệt về
+                            </p>
+                            <div class="about__heading__container-slogan">
+                                Chất lượng
+                            </div>
+                            <p class="about__heading__slogan">
+                                Dịch vụ được các đối tác, khách hàng tin tưởng và đánh giá cao
+                            </p>
+                        </div> -->
+                        <div class="about__introduct">
+                            <div class="about__introduct__item">
+                                <div class="about__introduct__img">
+                                    <div class="about__introduct__img__wrap">
+                                        <img class="about__introduct__image" src="./assets/img/About/about-img1.jpg" alt="">
+                                        <img class="about__introduct__image" src="./assets/img/About/about-img2.jpg" alt="">
+                                        <img class="about__introduct__image" src="./assets/img/About/about-img3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="row about__introduct__heading">
+                                    <div class="col-12 about__introduct__heading__wrap">
+                                        <h1 class="text__headersub">
+                                            Về VTCode
+                                        </h1>
+                                        <p class="about__introduct__text">
+                                            <span class="vtcode">vtcode</span> được thành lập với các nhà lãnh đạo năng động, nguyên tắc, và sáng tạo. Chúng tôi hình thành từ môi trường và hoàn cảnh khắc nghiệt, chúng tôi vươn lên từ niềm tin, đam mê nghề nghiệp và lòng nhiệt huyết của tuổi trẻ. Đội ngũ điều hành của <span class="vtcode">vtcode</span> mang lại một tập hợp đa dạng các kỹ năng và kinh nghiệm, đảm bảo một cái nhìn toàn diện về hoạt động của công ty.
+                                        </p>
+                                    </div>
+                                    <div class="col-6 col-max450-12 about__introduct__heading__wrap">
+                                        <h1 class="text__headersub">
+                                            Về <span class="vtcode">...</span>
+                                        </h1>
+                                        <p class="about__introduct__text">
+                                            <span class="vtcode">Lorem ipsum</span>, dolor sit amet consectetur adipisicing elit. Atque, blanditiis reiciendis. Laudantium magnam dolor inventore natus odit, impedit id, temporibus doloremque delectus architecto, enim tempora culpa optio. Magni, hic expedita?
+
+                                        </p>
+                                    </div>
+                                    <div class="col-6 col-max450-12 about__introduct__heading__wrap">
+                                        <h1 class="text__headersub">
+                                            Về <span class="vtcode">...</span>
+                                        </h1>
+                                        <p class="about__introduct__text">
+                                            <span class="vtcode">Lorem ipsum</span>, dolor sit amet consectetur adipisicing elit. Atque, blanditiis reiciendis. Laudantium magnam dolor inventore natus odit, impedit id, temporibus doloremque delectus architecto, enim tempora culpa optio. Magni, hic expedita?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="service">
+            <div id="container__content">
+                <div class="container">
+                    <div class="header__section">
+                        <h3 class="header__section__heading">Dịch vụ</h3>
+                    </div>
+                    <div class="service__content">
+                        <div class="row">
+                            <div class="col-10 col-md-12 col-lg-6 mb-5 service__content__item">
+                                <div class="service__content__item__img">
+                                    <img src="./assets/img/Service/Mobile_service.png" alt="" class="service__content__item__image">
+                                </div>
+                                <div class="service__content__item__text">
+                                    <h3 class="text__headersub">Lập trình phần mềm</h3>
+                                    <p class="service__content__item__sub">Lập trình phần mềm, ứng dụng theo yêu cầu.</p>
+                                </div>
+                            </div>
+                            <div class="col-10 col-md-12 col-lg-6 mb-5 service__content__item">
+                                <div class="service__content__item__img">
+                                    <img src="./assets/img/Service/Website.png" alt="" class="service__content__item__image">
+                                </div>
+                                <div class="service__content__item__text">
+                                    <h3 class="text__headersub">Thiết kế website</h3>
+                                    <p class="service__content__item__sub">Thiết kế, lập trình website cho doanh nghiệp, website bán hàng.</p>
+                                </div>
+                            </div>
+                            <div class="col-10 col-md-12 col-lg-6 mb-5 service__content__item">
+                                <div class="service__content__item__img">
+                                    <img src="./assets/img/Service/solution.png" alt="" class="service__content__item__image">
+                                </div>
+                                <div class="service__content__item__text">
+                                    <h3 class="text__headersub">IT doanh nghiệp</h3>
+                                    <p class="service__content__item__sub">Dịch vụ IT toàn diện cho doanh nghiệp.</p>
+                                </div>
+                            </div>
+                            <div class="col-10 col-md-12 col-lg-6 mb-5 service__content__item">
+                                <div class="service__content__item__img">
+                                    <img src="./assets/img/Service/hardware.png" alt="" class="service__content__item__image">
+                                </div>
+                                <div class="service__content__item__text">
+                                    <h3 class="text__headersub">Ứng dụng IOT</h3>
+                                    <p class="service__content__item__sub">Phát triển & ứng dụng IOT</p>
+                                </div>
+                            </div>
+                            <div class="col-10 col-md-12 col-lg-6 mb-5 service__content__item">
+                                <div class="service__content__item__img">
+                                    <img src="./assets/img/Service/Mobile_service.png" alt="" class="service__content__item__image">
+                                </div>
+                                <div class="service__content__item__text">
+                                    <h3 class="text__headersub">Face Detection</h3>
+                                    <p class="service__content__item__sub">Phát triển ứng dụng nhận diện khuôn mặt</p>
+                                </div>
+                            </div>
+                            <div class="col-10 col-md-12 col-lg-6 mb-5 service__content__item">
+                                <div class="service__content__item__img">
+                                    <img src="./assets/img/Service/Mobile_service.png" alt="" class="service__content__item__image">
+                                </div>
+                                <div class="service__content__item__text">
+                                    <h3 class="text__headersub">Tool Xây dựng</h3>
+                                    <p class="service__content__item__sub">Phát triển Tools chuyên ngành xây dựng.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="row service__content__wrap">
+                            
+                            <div class="col-6 service__content__item">
+                                <div class="service__content__item__img">
+                                    <img src="./assets/img/Service/Mobile_service.png" alt="" class="service__content__item__image">
+                                </div>
+                                <div class="service__content__item__text">
+                                    <h3 class="text__headersub">Lập trình phần mềm</h3>
+                                    <p class="service__content__item__sub">Lập trình phần mềm, ứng dụng theo yêu cầu.</p>
+                                </div>
+                            </div>
+                            <div class="col-6 service__content__item">
+                                <div class="service__content__item__img">
+                                    <img src="./assets/img/Service/Website.png" alt="" class="service__content__item__image">
+                                </div>
+                                <div class="service__content__item__text">
+                                    <h3 class="text__headersub">Thiết kế website</h3>
+                                    <p class="service__content__item__sub">Thiết kế, lập trình website cho doanh nghiệp, website bán hàng.</p>
+                                </div>
+                            </div>
+                            <div class="col-6 service__content__item">
+                                <div class="service__content__item__img">
+                                    <img src="./assets/img/Service/solution.png" alt="" class="service__content__item__image">
+                                </div>
+                                <div class="service__content__item__text">
+                                    <h3 class="text__headersub">IT doanh nghiệp</h3>
+                                    <p class="service__content__item__sub">Dịch vụ IT toàn diện cho doanh nghiệp.</p>
+                                </div>
+                            </div>
+                            <div class="col-6 service__content__item">
+                                <div class="service__content__item__img">
+                                    <img src="./assets/img/Service/hardware.png" alt="" class="service__content__item__image">
+                                </div>
+                                <div class="service__content__item__text">
+                                    <h3 class="text__headersub">Ứng dụng IOT</h3>
+                                    <p class="service__content__item__sub">Phát triển & ứng dụng IOT</p>
+                                </div>
+                            </div>
+                            <div class="col-6 service__content__item">
+                                <div class="service__content__item__img">
+                                    <img src="./assets/img/Service/Mobile_service.png" alt="" class="service__content__item__image">
+                                </div>
+                                <div class="service__content__item__text">
+                                    <h3 class="text__headersub">Face Detection</h3>
+                                    <p class="service__content__item__sub">Phát triển ứng dụng nhận diện khuôn mặt</p>
+                                </div>
+                            </div>
+                            <div class="col-6 service__content__item">
+                                <div class="service__content__item__img">
+                                    <img src="./assets/img/Service/Mobile_service.png" alt="" class="service__content__item__image">
+                                </div>
+                                <div class="service__content__item__text">
+                                    <h3 class="text__headersub">Tool Xây dựng</h3>
+                                    <p class="service__content__item__sub">Phát triển Tools chuyên ngành xây dựng.</p>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="number">
+            <div class="container">
+
+                <div id="container__content">
+                    <div class="row w-100">
+                        <div class="col-12 col-md-6 col-lg-3 mb-4 text-center">
+                            <div class="number__item">
+                                <div class="number__item__icon">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div class="number__item__amount">
+                                    100+
+                                </div>
+                                <div class="number__item__name">
+                                    Khách hàng
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mb-4 text-center">
+                            <div class="number__item__icon">
+                                <i class="fa-solid fa-certificate"></i>
+                            </div>
+                            <div class="number__item__amount">
+                                10+ năm
+                            </div>
+                            <div class="number__item__name">
+                                Kinh nghiệm
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mb-4 text-center">
+                            <div class="number__item__icon">
+                                <i class="fa-solid fa-chart-line"></i>
+                            </div>
+                            <div class="number__item__amount">
+                                20+
+                            </div>
+                            <div class="number__item__name">
+                                Dự án
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mb-4 text-center">
+                            <div class="number__item__icon">
+                                <i class="fa-solid fa-user-group"></i>
+                            </div>
+                            <div class="number__item__amount">
+                                50+
+                            </div>
+                            <div class="number__item__name">
+                                Nhân sự
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="number__item">
+                        <div class="number__item__icon">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="number__item__amount">
+                            100+
+                        </div>
+                        <div class="number__item__name">
+                            Khách hàng
+                        </div>
+                    </div>
+                    <div class="number__item">
+                        <div class="number__item__icon">
+                            <i class="fa-solid fa-certificate"></i>
+                        </div>
+                        <div class="number__item__amount">
+                            10+ năm
+                        </div>
+                        <div class="number__item__name">
+                            Kinh nghiệm
+                        </div>
+                    </div>
+                    <div class="number__item">
+                        <div class="number__item__icon">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <div class="number__item__amount">
+                            20+
+                        </div>
+                        <div class="number__item__name">
+                            Dự án
+                        </div>
+                    </div>
+                    <div class="number__item">
+                        <div class="number__item__icon">
+                            <i class="fa-solid fa-user-group"></i>
+                        </div>
+                        <div class="number__item__amount">
+                            50+
+                        </div>
+                        <div class="number__item__name">
+                            Nhân sự
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- <section id="rate">
+            <div class="header__section">
+                <h3 class="header__section__heading">Đánh giá của khách hàng</h3>
+            </div>
+        </section> -->
+        <div class="position-relative mt-8">
+            <div class="shape shape-bottom shape-fluid-x svg-shim text-gray-200">
+                <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="#e0f7fa"></path>
+                </svg>
+            </div>
+        </div>
+        <section id="project">
+            <div class="container">
+                <div id="container__content">
+                    <div class="header__section">
+                        <h3 class="header__section__heading">Dự án</h3>
+                        <!-- <p class="header__section__sub"></p> -->
+                    </div>
+                    <div class="project__slider">
+                        <!-- Slideshow container -->
+                        <div class="project__slider__item">
+                            <div class="w-100 slideshow-container">
+            
+                                <!-- Full-width images with number and caption text -->
+                                <div class="w-100 mySlides fade">
+                                <img class="w-100 project__slider__item__img" src="./assets/img/Project/slider-project1.jpg" style="width:100%">
+                                </div>
+                            
+                                <div class="mySlides fade">
+                                <img class="project__slider__item__img" src="./assets/img/Project/slider-project2.jpg" style="width:100%">
+                                </div>
+                            
+                                <div class="mySlides fade">
+                                <img class="project__slider__item__img" src="./assets/img/Project/slider-project3.jpg" style="width:100%">
+                                </div>
+                            
+                                <!-- Next and previous buttons -->
+                            </div>
+                            <div id="project__slider__shape" class="shape shape-right shape-fluid-y svg-shim text-white d-none d-md-block"> <svg viewBox="0 0 112 690" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M116 0H51v172C76 384 0 517 0 517v173h116V0z" fill="currentColor"></path> </svg> </div>
+                        </div>
+                        <div class="project__slider__item">
+                            <div class="wrap-slider">
+                                <div class="h-100 carousel"
+                                    data-flickity='{ "wrapAround": true, "prevNextButtons": false, "pageDots": false, draggable: false }'>
+                                    
+
+                                    <div class="h-100 mySlides1 pt-3 pb-3 pr-5 pl-5">
+                                        <div class="d-flex h-100 carousel-cell">
+                                            <div class="card-body carousel-cell-top">
+                                                <h3 class="h3 text__headersub fw-bold text-dark">
+                                                    Booth Karaoke
+                                                </h3>
+                                                <p class="carousel-cell-top-text">
+                                                    Chúng tôi cung cấp các dịch vụ lưu trữ Máy chủ đám mây (Cloud Hosting), Máy chủ ảo (VPS Hosting) và các dịch vụ đăng ký, gia hạn tên miền (Domain) 
+                                                </p>
+                                            </div>
+                                            <div class="d-flex w-100 justify-content-between card-body carousel-cell-bottom">
+                                                <div class="d-flex carousel-cell-bottom-technical">
+                                                    <div class="carousel-cell-bottom-item">
+                                                        <h6 class="text-muted mr-2 mb-0">
+                                                            <span class="badge badge-pill badge-danger p-2">
+                                                                <span class="h6 text-white">
+                                                                    Game
+                                                                </span>
+                                                            </span>
+                                                        </h6>
+                                                    </div>
+                                                    <div class="carousel-cell-bottom-item">
+                                                        <h6 class="text-muted mr-2 mb-0">
+                                                            <span class="badge badge-pill badge-warning p-2">
+                                                                <span class="h6 text-white">
+                                                                    Mobile
+                                                                </span>
+                                                            </span>
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex carousel-cell-bottom-technical">
+                                                    <div class="carousel-cell-bottom-item">
+                                                        <h6 class="text-muted mr-2 mb-0">
+                                                            <span class="badge badge-pill">
+                                                                <span class="h6 text-gray-200">
+                                                                    Chi tiết
+                                                                </span>
+                                                            </span>
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="h-100 mySlides1 pt-3 pb-3 pr-5 pl-5">
+                                        <div class="d-flex h-100 carousel-cell">
+                                            <div class="card-body carousel-cell-top">
+                                                <h3 class="h3 text__headersub fw-bold text-dark">
+                                                    Thi công Datacenter Karaoke ICOOL
+                                                </h3>
+                                                <p class="carousel-cell-top-text">
+                                                    Chúng tôi cung cấp các dịch vụ lưu trữ Máy chủ đám mây (Cloud Hosting), Máy chủ ảo (VPS Hosting) và các dịch vụ đăng ký, gia hạn tên miền (Domain) 
+                                                </p>
+                                            </div>
+                                            <div class="d-flex w-100 justify-content-between card-body carousel-cell-bottom">
+                                                <div class="d-flex carousel-cell-bottom-technical">
+                                                    <div class="carousel-cell-bottom-item">
+                                                        <h6 class="text-muted mr-2 mb-0">
+                                                            <span class="badge badge-pill badge-info p-2">
+                                                                <span class="h6 text-white">
+                                                                    Website
+                                                                </span>
+                                                            </span>
+                                                        </h6>
+                                                    </div>
+                                                    <div class="carousel-cell-bottom-item">
+                                                        <h6 class="text-muted mr-2 mb-0">
+                                                            <span class="badge badge-pill badge-warning p-2">
+                                                                <span class="h6 text-white">
+                                                                    Mobile
+                                                                </span>
+                                                            </span>
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex carousel-cell-bottom-technical">
+                                                    <div class="carousel-cell-bottom-item">
+                                                        <h6 class="text-muted mr-2 mb-0">
+                                                            <span class="badge badge-pill">
+                                                                <span class="h6 text-gray-200">
+                                                                    Chi tiết
+                                                                </span>
+                                                            </span>
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="h-100 mySlides1 pt-3 pb-3 pr-5 pl-5">
+                                        <div class="d-flex h-100 carousel-cell">
+                                            <div class="card-body carousel-cell-top">
+                                                <h3 class="h3 text__headersub fw-bold text-dark">
+                                                    Thi công hệ thống mạng công ty Tân Hùng Thái
+                                                </h3>
+                                                <p class="carousel-cell-top-text">
+                                                    Chúng tôi cung cấp các dịch vụ lưu trữ Máy chủ đám mây (Cloud Hosting), Máy chủ ảo (VPS Hosting) và các dịch vụ đăng ký, gia hạn tên miền (Domain) 
+                                                </p>
+                                            </div>
+                                            <div class="d-flex w-100 justify-content-between card-body carousel-cell-bottom">
+                                                <div class="d-flex carousel-cell-bottom-technical">
+                                                    <div class="carousel-cell-bottom-item">
+                                                        <h6 class="text-muted mr-2 mb-0">
+                                                            <span class="badge badge-pill badge-success p-2">
+                                                                <span class="h6 text-white">
+                                                                    App
+                                                                </span>
+                                                            </span>
+                                                        </h6>
+                                                    </div>
+                                                    <div class="carousel-cell-bottom-item">
+                                                        <h6 class="text-muted mr-2 mb-0">
+                                                            <span class="badge badge-pill badge-info p-2">
+                                                                <span class="h6 text-white">
+                                                                    Website
+                                                                </span>
+                                                            </span>
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex carousel-cell-bottom-technical">
+                                                    <div class="carousel-cell-bottom-item">
+                                                        <h6 class="text-muted mr-2 mb-0">
+                                                            <span class="badge badge-pill">
+                                                                <span class="h6 text-gray-200">
+                                                                    Chi tiết
+                                                                </span>
+                                                            </span>
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="position-relative">
+            <div class="shape shape-top shape-fluid-x svg-shim text-gray-200">
+                <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2160,480 C1440,240 720,240 720,240 L0,240 L0,-0.395050048828125 L2880,-0.395050048828125 L2880,477.2345885288564 L2160,477.2345885288564 z" fill="#e0f7fa"></path>
+                </svg>
+            </div>
+        </div>
+        <section id="customer">
+            <div class="container">
+                <div id="container__content">
+                    <div class="header__section">
+                        <h3 class="header__section__heading">Khách hàng</h3>
+                        <p class="header__section__sub">Hơn 100 khách hàng đã sử dụng dịch vụ của chúng tôi</p>
+                    </div>
+        
+                    <!-- Flickity HTML init -->
+                    <div class="carousel" data-flickity='{ "autoPlay": 1500, "prevNextButtons": false }'>
+                        <div class="carousel-cell">
+                            <img class="customer__img-logo" src="./assets/img/Customer/logo_cgv.png" alt="">
+                        </div>
+                        <div class="carousel-cell">
+                            <img class="customer__img-logo" src="./assets/img/Customer/galaxy-logo-mobile.png" alt="">
+                        </div>
+                        <div class="carousel-cell">
+                            <img class="customer__img-logo" src="./assets/img/Customer/heineken-14-logo.png" alt="">
+        
+                        </div>
+                        <div class="carousel-cell">
+                            <img class="customer__img-logo" src="./assets/img/Customer/logo-fptshop.png" alt="">
+        
+                        </div>
+                        <div class="carousel-cell">
+                            <img class="customer__img-logo" src="./assets/img/Customer/spaceaa.png" alt="">
+        
+                        </div>
+                        <div class="carousel-cell">
+                            <img class="customer__img-logo" src="./assets/img/Customer/vtco.png" alt="">
+        
+                        </div>
+                        <div class="carousel-cell">
+                            <img class="customer__img-logo" src="./assets/img/Customer/icool.png" alt="">
+        
+                        </div>
+                    </div>
+                    <div class="customers">
+                        <div id="container__content">
+                            <div class="carousel" data-flickity='{ "autoPlay": 1500, "wrapAround": true, "prevNextButtons": false }'>
+                                <div class="carousel-cell">
+                                    <div class="customers__item">
+                                        <div class="customers__item__avartar">
+                                            <img src="./assets/img/Customer/kh1.jpg" alt="" class="customers__item__img">
+                                        </div>
+                                        <div class="customers__item__content">
+                                            <blockquote class="testimonial-carousel" style="color:#ffffff">
+                                                <p>Mình quản lý cho Karaoke Icool, hợp tác với SPC thiết kế, 
+                                                    thi công và quản trị nguyên hệ thống Server - Máy tính -                                     Mạng cho hệ thống Karaoke Icool. Mình thấy IT của SPC có 
+                                                    chuyên môn rất tốt, xử lý nhanh, hỗ trợ nhanh. Sẽ tiếp tục ủng hộ.
+                                                </p>
+                                            </blockquote>
+                                        </div>
+                                        <div class="customers__item__author">
+                                            <h3 class="customers__item__author__name">Anh Sơn</h3>
+                                            <p class="customers__item__author__role">Giám đốc - Karaoke Icool</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-cell">
+                                    <div class="customers__item">
+                                        <div class="customers__item__avartar">
+                                            <img src="./assets/img/Customer/kh2.jpg" alt="" class="customers__item__img">
+                                        </div>
+                                        <div class="customers__item__content">
+                                            <blockquote class="testimonial-carousel" style="color:#ffffff">
+                                                <p>Mình thấy SPC làm việc chuyên nghiệp, IT cũng rất Pro, 
+                                                    Phòng Kinh doanh có mấy bạn xinh gái ghê, nhỏ nhắn, 
+                                                    ai cũng dễ thương, hỗ trợ nhanh, nhiệt tình. 
+                                                    Chắc chắn sẽ dùng tiếp dịch vụ, cảm ơn SPC rất nhiều.
+                                                </p>
+                                            </blockquote>
+                                        </div>
+                                        <div class="customers__item__author">
+                                            <h3 class="customers__item__author__name">Hoàng Kha</h3>
+                                            <p class="customers__item__author__role">Giám đốc CGV</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="staff">
+            <div class="container">
+                <div id="container__content">
+                    <div class="header__section">
+                        <h3 class="header__section__heading">Đội ngũ nhân sự</h3>
+                    </div>
+                    <div class="staff__item__wrap">
+                        <div class="row">
+                            <div class="col-2 col-md-3 col-lg-4"></div>
+                            <div class="col-8 col-md-6 col-lg-4 mb-4">
+                                <div class="card staff__card border-info mb-6 text-center">
+                                    <div class="card-body text-center">
+                                        <div class="staff__item__avatar mb-4 rounded-circle">
+                                            <img src="./assets/img/Customer/kh1.jpg" alt="" class="staff__item__avatar__img">
+                                        </div>
+                                        <div class="staff__item__content">
+                                            
+                                            <h3 class="font-weight-bold text-info mb-0">John Doe</h3>
+                                            <p class="text-gray-700 mb-4">
+                                                Leader
+                                            </p>
+                                        </div>
+                                        <span class="badge badge-pill badge-info">
+                                            <span class="h6 font-weight-bold">Website</span>
+                                        </span>
+                                        <span class="badge badge-pill badge-success">
+                                            <span class="h6">Hardware</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2 col-md-3 col-lg-4"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2 col-md-0 col-lg-2"></div>
+                            <div class="col-8 col-md-6 col-lg-4 mb-4">
+                                <div class="card staff__card border-warning mb-6 text-center">
+                                    <div class="card-body text-center">
+                                        <div class="staff__item__avatar mb-4 rounded-circle">
+                                            <img src="./assets/img/Customer/kh1.jpg" alt="" class="staff__item__avatar__img">
+                                        </div>
+                                        <div class="staff__item__content">
+                                            
+                                            <h3 class="font-weight-bold text-warning mb-0">John Doe</h3>
+                                            <p class="text-gray-700 mb-4">
+                                                Leader
+                                            </p>
+                                        </div>
+                                        <span class="badge badge-pill badge-info">
+                                            <span class="h6 font-weight-bold">Website</span>
+                                        </span>
+                                        <span class="badge badge-pill badge-success">
+                                            <span class="h6">Hardware</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2 col-md-0 col-lg-0"></div>
+                            <div class="col-2 col-md-0 col-lg-0"></div>
+                            <div class="col-8 col-md-6 col-lg-4 mb-4">
+                                <div class="card staff__card border-danger mb-6 text-center">
+                                    <div class="card-body text-center">
+                                        <div class="staff__item__avatar mb-4 rounded-circle">
+                                            <img src="./assets/img/Customer/kh1.jpg" alt="" class="staff__item__avatar__img">
+                                        </div>
+                                        <div class="staff__item__content">
+                                            
+                                            <h3 class="font-weight-bold text-danger mb-0">John Doe</h3>
+                                            <p class="text-gray-700 mb-4">
+                                                Leader
+                                            </p>
+                                        </div>
+                                        <span class="badge badge-pill badge-info">
+                                            <span class="h6 font-weight-bold">Website</span>
+                                        </span>
+                                        <span class="badge badge-pill badge-success">
+                                            <span class="h6">Hardware</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-0 col-md-0 col-lg-2"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2 col-md-0 col-lg-0"></div>
+                            <div class="col-8 col-md-6 col-lg-4 mb-4">
+                                <div class="card staff__card border-success mb-6 text-center">
+                                    <div class="card-body text-center">
+                                        <div class="staff__item__avatar mb-4 rounded-circle">
+                                            <img src="./assets/img/Customer/kh1.jpg" alt="" class="staff__item__avatar__img">
+                                        </div>
+                                        <div class="staff__item__content">
+                                            
+                                            <h3 class="font-weight-bold text-success mb-0">John Doe</h3>
+                                            <p class="text-gray-700 mb-4">
+                                                Leader
+                                            </p>
+                                        </div>
+                                        <span class="badge badge-pill badge-info">
+                                            <span class="h6 font-weight-bold">Website</span>
+                                        </span>
+                                        <span class="badge badge-pill badge-success">
+                                            <span class="h6">Hardware</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2 col-md-0 col-lg-0"></div>
+                            <div class="col-2 col-md-0 col-lg-0"></div>
+                            <div class="col-8 col-md-6 col-lg-4 mb-4">
+                                <div class="card staff__card border-dark mb-6 text-center">
+                                    <div class="card-body text-center">
+                                        <div class="staff__item__avatar mb-4 rounded-circle">
+                                            <img src="./assets/img/Customer/kh1.jpg" alt="" class="staff__item__avatar__img">
+                                        </div>
+                                        <div class="staff__item__content">
+                                            
+                                            <h3 class="font-weight-bold text-dark mb-0">John Doe</h3>
+                                            <p class="text-gray-700 mb-4">
+                                                Leader
+                                            </p>
+                                        </div>
+                                        <span class="badge badge-pill badge-info">
+                                            <span class="h6 font-weight-bold">Website</span>
+                                        </span>
+                                        <span class="badge badge-pill badge-success">
+                                            <span class="h6">Hardware</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2 col-md-0 col-lg-0"></div>
+                            <div class="col-2 col-md-0 col-lg-0"></div>
+                            <div class="col-8 col-md-6 col-lg-4 mb-4">
+                                <div class="card staff__card border-secondary mb-6 text-center">
+                                    <div class="card-body text-center">
+                                        <div class="staff__item__avatar mb-4 rounded-circle">
+                                            <img src="./assets/img/Customer/kh1.jpg" alt="" class="staff__item__avatar__img">
+                                        </div>
+                                        <div class="staff__item__content">
+                                            
+                                            <h3 class="font-weight-bold text-secondary mb-0">John Doe</h3>
+                                            <p class="text-gray-700 mb-4">
+                                                Leader
+                                            </p>
+                                        </div>
+                                        <span class="badge badge-pill badge-info">
+                                            <span class="h6 font-weight-bold">Website</span>
+                                        </span>
+                                        <span class="badge badge-pill badge-success">
+                                            <span class="h6">Hardware</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2 col-md-0 col-lg-0"></div>
+                            <div class="col-2 col-md-0 col-lg-0"></div>
+                            <div class="col-8 col-md-6 col-lg-4 mb-4">
+                                <div class="card staff__card border-secondary mb-6 text-center">
+                                    <div class="card-body text-center">
+                                        <div class="staff__item__avatar mb-4 rounded-circle">
+                                            <img src="./assets/img/Customer/kh1.jpg" alt="" class="staff__item__avatar__img">
+                                        </div>
+                                        <div class="staff__item__content">
+                                            
+                                            <h3 class="font-weight-bold text-secondary mb-0">John Doe</h3>
+                                            <p class="text-gray-700 mb-4">
+                                                Leader
+                                            </p>
+                                        </div>
+                                        <span class="badge badge-pill badge-info">
+                                            <span class="h6 font-weight-bold">Website</span>
+                                        </span>
+                                        <span class="badge badge-pill badge-success">
+                                            <span class="h6">Hardware</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2 col-md-0 col-lg-0"></div>
+                            <div class="col-2 col-md-0 col-lg-0"></div>
+                            <div class="col-8 col-md-6 col-lg-4 mb-4">
+                                <div class="card staff__card border-secondary mb-6 text-center">
+                                    <div class="card-body text-center">
+                                        <div class="staff__item__avatar mb-4 rounded-circle">
+                                            <img src="./assets/img/Customer/kh1.jpg" alt="" class="staff__item__avatar__img">
+                                        </div>
+                                        <div class="staff__item__content">
+                                            
+                                            <h3 class="font-weight-bold text-secondary mb-0">John Doe</h3>
+                                            <p class="text-gray-700 mb-4">
+                                                Leader
+                                            </p>
+                                        </div>
+                                        <span class="badge badge-pill badge-info">
+                                            <span class="h6 font-weight-bold">Website</span>
+                                        </span>
+                                        <span class="badge badge-pill badge-success">
+                                            <span class="h6">Hardware</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2 col-md-0 col-lg-0"></div>
+                            <div class="col-2 col-md-0 col-lg-0"></div>
+                            <div class="col-8 col-md-6 col-lg-4 mb-4">
+                                <div class="card staff__card border-secondary mb-6 text-center">
+                                    <div class="card-body text-center">
+                                        <div class="staff__item__avatar mb-4 rounded-circle">
+                                            <img src="./assets/img/Customer/kh1.jpg" alt="" class="staff__item__avatar__img">
+                                        </div>
+                                        <div class="staff__item__content">
+                                            
+                                            <h3 class="font-weight-bold text-secondary mb-0">John Doe</h3>
+                                            <p class="text-gray-700 mb-4">
+                                                Leader
+                                            </p>
+                                        </div>
+                                        <span class="badge badge-pill badge-info">
+                                            <span class="h6 font-weight-bold">Website</span>
+                                        </span>
+                                        <span class="badge badge-pill badge-success">
+                                            <span class="h6">Hardware</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <form class="contact__form">
+                <img class="contact__form__img" src="./assets/img/Contact/contact.png" alt="">
+                <div class="header__section">
+                    <h3 class="header__section__heading">Liên hệ</h3>
+                    <p class="header__section__sub">Chúng tôi sẽ phản hồi trong thời gian sớm nhất!</p>
+                </div>
+                <div class="contact__form__input">
+                    <div class="contact__form__input__half">
+                        <input type="text" name="" id="" placeholder="Tên" class="contact__form__input__name">
+                        <input type="text" name="" id="" placeholder="Email" class="contact__form__input__email">
+                    </div>
+                    <input type="text" name="" id="" placeholder="Chủ đề" class="contact__form__input__name">
+                    <textarea class="contact__form__input__content" placeholder="Nội dung" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="contact__form__container-button">
+                    <button class="contact__form__button" type="submit">Gửi</button>
+                </div>
+            </form>
+        </section>
+        <section id="footer">
+            <div class="container">
+                <div id="container__content">
+                    <div class="footer__top">
+                        <div id="container__content">
+                            <div class="row">
+                                <div class="col-12 col-md-4 col-lg-4">
+                                    <div class="footer__top__item">
+                                        <a class="navbar-brand" href="#">
+                                            <div class="header__logo">
+                                                <img src="./assets/img/Logo.png" alt="" class="header__logo__img">
+                                            </div>
+                                        </a>
+                                        <div class="footer__top__address">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                            <p class="footer__top__address__text">
+                                                234 Ngô Tất Tố, phường 22, quận Bình Thạnh, Tp. Hồ Chí Minh
+                                            </p>
+                                        </div>
+                                        <div class="footer__top__address">
+                                            <i class="fa-solid fa-phone"></i>
+                                            <p class="footer__top__address__text">
+                                                1900 77 99 18
+                                            </p>
+                                        </div>
+                                        <div class="footer__top__address">
+                                            <i class="fa-solid fa-envelope"></i>
+                                            <p class="footer__top__address__text">
+                                                info@vtcode.vn
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-4">
+                                    <div class="footer__top__item">
+                                        <h4 class="text__headersub text-white">Địa chỉ</h4>
+                                        <div class="footer__top__address">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                            <p class="footer__top__address__text">
+                                                234 Ngô Tất Tố, phường 22, quận Bình Thạnh, Tp. Hồ Chí Minh
+                                            </p>
+                                        </div>
+                                        <div class="footer__top__address">
+                                            <i class="fa-solid fa-phone"></i>
+                                            <p class="footer__top__address__text">
+                                                1900 77 99 18
+                                            </p>
+                                        </div>
+                                        <div class="footer__top__address">
+                                            <i class="fa-solid fa-envelope"></i>
+                                            <p class="footer__top__address__text">
+                                                info@vtcode.vn
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-4">
+                                    <div class="footer__top__item">
+                                        <h4 class="text__headersub text-white">Chính sách</h4>
+                                        <div class="footer__top__work-time">
+                                            <p class="footer__top__work-time__text">
+                                                <span class="footer__top__work-time__date">
+                                                    Thứ 2 - Thứ 6:
+                                                </span>
+                                                8:00am - 17:30pm
+                                            </p>
+                                        </div>
+                                        <div class="footer__top__work-time">
+                                            <p class="footer__top__work-time__text">
+                                                <span class="footer__top__work-time__date">
+                                                    Thứ 7:
+                                                </span>
+                                                8:00am - 12:00pm
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="footer__top__item">
+                                <ul class="footer__top__social">
+                                    <li class="footer__top__social__list">
+                                        <a href="" class="footer__top__social__link">
+        
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__bottom__license">
+                    © Copyright 2021. All Rights Reserved.
+                </p>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="./slider.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="./script.js"></script>
+
+</html>

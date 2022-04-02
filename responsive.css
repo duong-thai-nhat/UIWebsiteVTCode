@@ -1,0 +1,225 @@
+@media (max-width: 1200px) {
+    .about__introduct__item{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+
+@media (max-width: 1024px) {
+    /* contact */
+    /* #contact{
+        min-height: 300px;
+    } */
+    
+}
+
+@media (min-width: 992px) {
+    .col-lg-0{
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .header__menu__list{
+        padding: 6px;
+        border-bottom: 1px solid #f1f4f8;
+    }
+
+    .service__content__item__text{
+        margin-top: 30px;
+    }
+
+    .text__headersub{
+        margin: 0;
+    }
+
+    #project .flickity-viewport{
+        min-height: 300px!important;
+    }
+    
+    .project__slider{
+        flex-direction: column;
+    }
+
+    .project__slider__item{
+        background-color: var(--white-color);
+    }
+
+    /* .header__info{
+        position: absolute;
+        top: 20px;
+        right: 80px;
+    } */
+
+    .nav-mobile{
+        display: flex;
+    }
+
+    #navbarNav{
+        position: absolute;
+        background-color: var(--white-color);
+        top: 100%;
+        /* width: 100%; */
+        left: 0;
+        right: 0;
+    }
+    
+
+    #project__slider__shape{
+        display: none!important;
+    }
+
+    
+    .flickity-viewport{
+        background-color: var(--white-color);
+    }
+
+    .carousel-cell{
+        height: 300px!important;
+        padding-right: 0!important;
+    }
+
+    .customers .flickity-viewport{
+        min-height: 400px;
+    }
+
+    .customers__item{
+        width: 500px;
+    }
+
+    .contact__form{
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-0{
+        display: none;
+    }
+    
+}
+
+
+@media (max-width: 767px){
+    .col-0{
+        display: none;
+    }
+
+    .about__introduct__image{
+        position: unset;
+        width: 350px;
+        margin: 10px;
+    }
+
+    .about__introduct__image:nth-child(1),
+    .about__introduct__image:nth-child(2){
+        display: none;
+    }
+
+    .service__content .row{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .service__content__item{
+        flex-direction: column;
+    }
+
+    .customers__item{
+        width: 300px;
+    }
+    
+    .contact__form{
+        width: 90%;
+    }
+
+    .contact__form__input__half{
+        flex-direction: column;
+    }
+
+    #footer{
+        height: 940px;
+    }
+
+    .footer__top__item{
+        margin-bottom: 20px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 550px){
+    .header__logo{
+        height: 35px;
+    }
+
+    .navbar-toggler-icon{
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .about__introduct__img__wrap{
+        min-width: unset;
+        min-height: unset;
+    }
+
+    .about__introduct__image{
+        width: 70%;
+    }
+
+    .service__content__item__text{
+        width: unset;
+    }
+    
+    .project__slider{
+        margin: 0;
+    }
+
+    .prev, .next{
+        padding: 10px 20px;
+        top: 40%;
+    }
+    
+}
+
+@media (max-width: 450px){
+    .col-max450-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .project__slider__item .carousel .mySlides1 {
+        padding-left: 1rem!important;
+        padding-right: 1rem!important;
+    }
+
+    .customers .flickity-viewport{
+        min-height: 500px;
+    }
+
+    .customers__item{
+        width: 150px;
+    }
+
+    .customer__img-logo{
+        height: 50px;
+    }
+}
+
+@media (max-width: 350px){
+    
+
+
+    .badge{
+        margin-bottom: 6px;
+    }
+
+    .contact__form{
+        padding: 50px 30px;
+    }
+    
+}
+
