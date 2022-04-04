@@ -19,6 +19,7 @@
     .col-lg-0{
         display: none;
     }
+
 }
 
 @media (max-width: 992px) {
@@ -26,15 +27,15 @@
         padding: 6px;
         border-bottom: 1px solid #f1f4f8;
     }
-
+    
     .service__content__item__text{
         margin-top: 30px;
     }
-
+    
     .text__headersub{
         margin: 0;
     }
-
+    
     #project .flickity-viewport{
         min-height: 300px!important;
     }
@@ -70,21 +71,29 @@
     #project__slider__shape{
         display: none!important;
     }
-
+    
     
     .flickity-viewport{
         background-color: var(--white-color);
     }
-
+    
+    .customers .carousel-cell{
+        margin-top: 70px;
+    }
+    
+    .customers .carousel-cell:nth-child(1){
+        margin-top: 100px;
+    }
+    
     .carousel-cell{
         height: 300px!important;
         padding-right: 0!important;
     }
-
+    
     .customers .flickity-viewport{
         min-height: 400px;
     }
-
+    
     .customers__item{
         width: 500px;
     }
