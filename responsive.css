@@ -82,7 +82,7 @@
     }
 
     .customers .flickity-viewport{
-        min-height: 400px;
+        min-height: 460px;
     }
 
     .customers__item{
@@ -127,7 +127,13 @@
         flex-direction: column;
     }
 
+    
+    .customers .customer__img-logo{
+        height: 50px;
+    }
+
     .customers__item{
+        padding-top: 30px;
         width: 300px;
     }
     
@@ -197,10 +203,11 @@
     }
 
     #customer .customers .flickity-viewport {
-        height: 500px!important;
+        height: 600px!important;
     }
     
     #customer .customers .carousel-cell{
+        padding-top: 200px;
         height: 400px!important;
     }
 

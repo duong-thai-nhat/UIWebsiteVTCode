@@ -49,7 +49,10 @@ function showSlides1(n) {
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  
+
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
 }
+
+// document.querySelectorAll('.carousel').addEventListener('mouseleave', function(e) { flick.playPlayer() });
+// document.querySelector('.carousel').da
