@@ -8,10 +8,6 @@
 
 
 @media (max-width: 1024px) {
-    /* contact */
-    /* #contact{
-        min-height: 300px;
-    } */
     
 }
 
@@ -48,12 +44,6 @@
         background-color: var(--white-color);
     }
 
-    /* .header__info{
-        position: absolute;
-        top: 20px;
-        right: 80px;
-    } */
-
     .nav-mobile{
         display: flex;
     }
@@ -62,7 +52,6 @@
         position: absolute;
         background-color: var(--white-color);
         top: 100%;
-        /* width: 100%; */
         left: 0;
         right: 0;
     }
@@ -76,7 +65,7 @@
     .flickity-viewport{
         background-color: var(--white-color);
     }
-    
+
     .customers .carousel-cell{
         margin-top: 70px;
     }
