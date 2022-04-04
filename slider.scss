@@ -4,13 +4,22 @@
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/polar.otf");
   font-family: "Polar";
 }
-$polar: "Polar", Helvetica, Arial, sans-serif;
-$openSans: "Open Sans", Helvetica, Arial, sans-serif;
+
+$polar: "Polar",
+Helvetica,
+Arial,
+sans-serif;
+$openSans: "Open Sans",
+Helvetica,
+Arial,
+sans-serif;
+
 @mixin mediaMaxWidth($w) {
   @media (max-width: $w) {
     @content;
   }
 }
+
 *,
 *:before,
 *:after {
@@ -18,25 +27,30 @@ $openSans: "Open Sans", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
+
 html,
 body {
   font-size: 62.5%;
   height: 100%;
   overflow: hidden;
 }
+
 body {
   background: #000;
 }
+
 svg {
   display: block;
   overflow: visible;
 }
+
 .slider-container {
   position: relative;
   height: 100%;
   user-select: none;
   cursor: all-scroll;
 }
+
 .slider-control {
   z-index: 2;
   position: absolute;
@@ -58,19 +72,16 @@ svg {
 
   &.left {
     left: 0;
-    background: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.18) 0%,
-      rgba(0, 0, 0, 0) 100%
-    );
+    background: linear-gradient(to right,
+        rgba(0, 0, 0, 0.18) 0%,
+        rgba(0, 0, 0, 0) 100%);
   }
+
   &.right {
     right: 0;
-    background: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.18) 100%
-    );
+    background: linear-gradient(to right,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.18) 100%);
   }
 }
 
@@ -113,6 +124,7 @@ svg {
     }
   }
 }
+
 .slider {
   z-index: 1;
   position: relative;
@@ -128,6 +140,7 @@ svg {
     }
   }
 }
+
 .slide {
   position: absolute;
   top: 0;
@@ -136,6 +149,7 @@ svg {
   overflow: hidden;
 
   &.active {
+
     .slide__overlay,
     .slide__text {
       opacity: 1;
@@ -152,6 +166,7 @@ svg {
     background-size: cover;
     will-change: transform;
   }
+
   &:nth-child(1) {
     left: 0;
 
@@ -170,6 +185,7 @@ svg {
       }
     }
   }
+
   &:nth-child(2) {
     left: 100%;
 
@@ -188,6 +204,7 @@ svg {
       }
     }
   }
+
   &:nth-child(3) {
     left: 200%;
 
@@ -206,6 +223,7 @@ svg {
       }
     }
   }
+
   &:nth-child(4) {
     left: 300%;
 
