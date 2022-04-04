@@ -8,6 +8,10 @@
 
 
 @media (max-width: 1024px) {
+    /* contact */
+    /* #contact{
+        min-height: 300px;
+    } */
     
 }
 
@@ -15,7 +19,6 @@
     .col-lg-0{
         display: none;
     }
-
 }
 
 @media (max-width: 992px) {
@@ -23,15 +26,15 @@
         padding: 6px;
         border-bottom: 1px solid #f1f4f8;
     }
-    
+
     .service__content__item__text{
         margin-top: 30px;
     }
-    
+
     .text__headersub{
         margin: 0;
     }
-    
+
     #project .flickity-viewport{
         min-height: 300px!important;
     }
@@ -44,6 +47,12 @@
         background-color: var(--white-color);
     }
 
+    /* .header__info{
+        position: absolute;
+        top: 20px;
+        right: 80px;
+    } */
+
     .nav-mobile{
         display: flex;
     }
@@ -52,6 +61,7 @@
         position: absolute;
         background-color: var(--white-color);
         top: 100%;
+        /* width: 100%; */
         left: 0;
         right: 0;
     }
@@ -60,29 +70,21 @@
     #project__slider__shape{
         display: none!important;
     }
-    
+
     
     .flickity-viewport{
         background-color: var(--white-color);
     }
 
-    .customers .carousel-cell{
-        margin-top: 70px;
-    }
-    
-    .customers .carousel-cell:nth-child(1){
-        margin-top: 100px;
-    }
-    
     .carousel-cell{
         height: 300px!important;
         padding-right: 0!important;
     }
-    
+
     .customers .flickity-viewport{
         min-height: 400px;
     }
-    
+
     .customers__item{
         width: 500px;
     }
@@ -194,8 +196,12 @@
         padding-right: 1rem!important;
     }
 
-    .customers .flickity-viewport{
-        min-height: 500px;
+    #customer .customers .flickity-viewport {
+        height: 500px!important;
+    }
+    
+    #customer .customers .carousel-cell{
+        height: 400px!important;
     }
 
     .customers__item{

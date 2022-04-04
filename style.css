@@ -453,16 +453,29 @@
     min-height: 400px;
 }
 
+
 #customer .flickity-viewport {
-    height: 100px;
+    height: 100px!important;
+}
+
+#customer .carousel-cell{
+    height: 100px!important;
+}
+
+#customers #container__content {
+    display: flex;
 }
 
 .customers {
     margin-top: 60px;
 }
 
-#customers #container__content {
-    display: flex;
+#customer .customers .flickity-viewport {
+    height: 400px!important;
+}
+
+#customer .customers .carousel-cell{
+    height: 400px!important;
 }
 
 .customers__item {
