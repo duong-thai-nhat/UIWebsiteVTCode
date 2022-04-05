@@ -8,10 +8,7 @@
 
 
 @media (max-width: 1024px) {
-    /* contact */
-    /* #contact{
-        min-height: 300px;
-    } */
+    
     
 }
 
@@ -46,12 +43,6 @@
     .project__slider__item{
         background-color: var(--white-color);
     }
-
-    /* .header__info{
-        position: absolute;
-        top: 20px;
-        right: 80px;
-    } */
 
     .nav-mobile{
         display: flex;
@@ -198,7 +189,7 @@
         max-width: 100%;
     }
 
-    .project__slider__item .carousel .mySlides1 {
+    .project__slider__item .mySlides1 {
         padding-left: 1rem!important;
         padding-right: 1rem!important;
     }

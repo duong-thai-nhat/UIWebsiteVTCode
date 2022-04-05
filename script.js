@@ -53,6 +53,3 @@ function showSlides1(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
 }
-
-// document.querySelectorAll('.carousel').addEventListener('mouseleave', function(e) { flick.playPlayer() });
-// document.querySelector('.carousel').da
