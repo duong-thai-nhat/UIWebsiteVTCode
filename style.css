@@ -402,7 +402,7 @@
     transition: all 1s;
     position: relative;
     /* background: #FFCF47; */
-    border-radius: 2px;
+    border-radius: 2px;;
 }
 
 .carousel {

@@ -35,6 +35,11 @@
     #project .flickity-viewport{
         min-height: 300px!important;
     }
+
+    #project .mySlides1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
     
     .project__slider{
         flex-direction: column;
@@ -122,7 +127,6 @@
     .service__content__item{
         flex-direction: column;
     }
-
     
     .customers .customer__img-logo{
         margin-top: 20px;
@@ -195,9 +199,10 @@
         max-width: 100%;
     }
 
-    .project__slider__item .mySlides1 {
-        padding-left: 1rem!important;
-        padding-right: 1rem!important;
+    #project .mySlides1 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 400px;
     }
 
     #customer .customers .flickity-viewport {
@@ -220,7 +225,25 @@
 
 @media (max-width: 350px){
     
+    .project__slider__item:nth-child(2){
+        height: 360px;
+    }
 
+    #project__slider__text{
+        width: 290px;
+    }
+
+    #project .wrap-slider{
+        width: 290px;
+        margin: 0 auto;
+    }
+
+    #project .mySlides1 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 290px;
+        margin-right: 110px;
+    }
 
     .badge{
         margin-bottom: 6px;
