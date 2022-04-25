@@ -174,7 +174,7 @@
     padding-top: 80px;
     padding-bottom: 80px;
     text-align: center;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
 }
 
 .about__introduct {
@@ -252,6 +252,7 @@
 #service {
     padding-top: 80px;
     padding-bottom: 80px;
+    /* background-color: ; */
 }
 
 .service__content {
@@ -269,8 +270,16 @@
     justify-content: center;
 }
 
-.service__content__item__image {
+.service__content__item__img{
+    display: flex;
+    align-items: center;
     width: 160px;
+    height: 104px;
+    background-color: var(--white-color);
+}
+
+.service__content__item__image {
+    width: 100%;
 }
 
 .service__content__item__img {
@@ -593,7 +602,7 @@
 
 /* Staff */
 #staff {
-    background: url(./assets/img/Staff/bg-Staff1.png), url(./assets/img/Staff/bg-Staff2.png);
+    /* background: url(./assets/img/Staff/bg-Staff1.png), url(./assets/img/Staff/bg-Staff2.png); */
     background-repeat: no-repeat;
     background-position: left center, right center;
     background-size: auto 70%;
@@ -604,6 +613,11 @@
 .staff__item__wrap .card {
     border: none;
     box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, .05) !important;
+}
+
+.staff__card{
+    cursor: pointer;
+    transition: all 0.15s linear;
 }
 
 .staff__card:hover {
@@ -762,13 +776,19 @@
     font-weight: 600;
 }
 
+.divided{
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, var(--white-color), transparent);;
+}
+
 .footer__bottom {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
     width: 100%;
-    background-color: var(--black-color);
+    /* border-top: 1px solid #fff; */
+    /* background-color: var(--black-color); */
 }
 
 .footer__bottom__license {

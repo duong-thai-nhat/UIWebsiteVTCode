@@ -1,17 +1,17 @@
 let slideIndex = 1;
 showSlides(slideIndex);
-showSlides1(slideIndex);
+// showSlides1(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
-  showSlides1(slideIndex += n);
+  // showSlides1(slideIndex += n);
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
-  showSlides1(slideIndex = n);
+  // showSlides1(slideIndex = n);
 }
 
 function showSlides(n) {
